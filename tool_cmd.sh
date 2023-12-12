@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd
 sudo apt-get install vim -y
 
 echo "alias cr='cd ros'" >> ~/.bashrc
