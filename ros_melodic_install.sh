@@ -14,3 +14,6 @@ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator pyt
 sudo apt install python-rosdep -y
 sudo rosdep init
 rosdep update
+
+#install gazebo
+sudo apt install ros-melodic-gazebo-ros -y
