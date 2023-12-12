@@ -20,3 +20,6 @@ sudo apt-get install librealsense2-utils -y
 
 sudo apt-get install librealsense2-dev -y
 sudo apt-get install librealsense2-dbg -y
+
+
+#test realsense-viewer 
