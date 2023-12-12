@@ -1,11 +1,12 @@
-cs
+cd ros/src
+
 git clone https://github.com/shinkansan/2019-UGRP-DPoom.git
 git clone https://github.com/SeunghyunLim/Dpoom_gazebo.git
-cd
+cd..
 
 #install realsense-ros
 
-sudo apt-get install ros-$ROS_DISTRO-realsense2-camera -y
+sudo apt-get install ros-melodic-realsense2-camera -y
 sudo apt-get install ros-melodic-realsense2-description -y
 
 sudo mkdir -p /etc/apt/keyrings
@@ -25,4 +26,4 @@ sudo apt-get install librealsense2-dbg -y
 
 
 #test realsense-viewer 
-ccm
+catkin_make
