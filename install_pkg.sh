@@ -2,7 +2,7 @@ cd ros/src
 
 git clone https://github.com/shinkansan/2019-UGRP-DPoom.git
 git clone https://github.com/SeunghyunLim/Dpoom_gazebo.git
-cd..
+cd ..
 
 #install realsense-ros
 
