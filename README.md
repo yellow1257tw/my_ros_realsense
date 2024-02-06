@@ -1,19 +1,23 @@
 # my_ros_realsense
-ros1_gazebo_realsense
-我安裝的步驟
+
+我啟動的步驟
 
 
 #run gazebo simulation
+
 export TURTLEBOT3_MODEL=dpoom
 roslaunch dpoom_gazebo dpoom_turtle.launch
 
 #run keypad
+
 export TURTLEBOT3_MODEL=waffle_pi
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 #run pointcloud_to_laserscan
+
 roslaunch pointcloud_to_laserscan point_to_scan.launch
 
 #show on rviz
+
 rosrun rviz rviz -d dpoom_rviz.rviz
 
