@@ -3,7 +3,6 @@ ros1_gazebo_realsense
 我安裝的步驟
 
 
-
 #run gazebo simulation
 export TURTLEBOT3_MODEL=dpoom
 roslaunch dpoom_gazebo dpoom_turtle.launch
