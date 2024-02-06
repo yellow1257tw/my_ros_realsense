@@ -23,3 +23,7 @@ roslaunch pointcloud_to_laserscan point_to_scan.launch
 
 rosrun rviz rviz -d dpoom_rviz.rviz
 
+#run hector_slam
+
+roslaunch my_hector_launch.launch 
+
