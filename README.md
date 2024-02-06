@@ -6,11 +6,13 @@
 #run gazebo simulation
 
 export TURTLEBOT3_MODEL=dpoom
+
 roslaunch dpoom_gazebo dpoom_turtle.launch
 
 #run keypad
 
 export TURTLEBOT3_MODEL=waffle_pi
+
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 #run pointcloud_to_laserscan
